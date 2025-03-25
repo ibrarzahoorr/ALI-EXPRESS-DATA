@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "AliExpress Data Extractor",
+    "version": "1.0",
+    "description": "Extract product data from AliExpress and export it to CSV.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "logo.png"
+    },
+    "permissions": ["activeTab", "scripting", "downloads"],
+    "host_permissions": [
+      "*://*.aliexpress.com/*"
+    ]
+  }
+  
